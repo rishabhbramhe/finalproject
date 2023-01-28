@@ -1,0 +1,1102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  
+}
+#main{
+  width: 100%;
+overflow-x: hidden;
+
+
+}
+#home {
+  position: relative;
+  height: 100vh;
+  z-index: 9999999;
+}
+
+#home>img{
+z-index: 999999999999;
+  height: 100vh;
+  width: 110%;
+  object-fit: cover;
+
+}
+#overlay{
+  z-index: 999;
+}
+#circle{
+  height: 60vw;
+  width: 60vw;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+
+}
+#top img{
+height: 100%;
+width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)rotate(-180deg);
+}
+#btm img{
+  height: 100%;
+  width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#btm img:nth-child(1){
+  transform: translate(-50%,-50%)scale(1.9);
+}
+#btm img:nth-child(2){
+  transform: translate(-50%,-50%)scale(1.4);
+}
+
+#top img:nth-child(1){
+  transform: translate(-50%,-50%)rotate(-180deg)scale(1.9);
+}
+#top img:nth-child(2){
+  transform: translate(-50%,-50%)rotate(-180deg)scale(1.4);
+}
+
+#smcircle{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  height:40vw;
+  width: 40vw;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+
+}
+#nav1{
+  top: 0 ;
+  left: 4%;
+  width: 92%;
+  height: 50px;
+position: absolute;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 0px;
+}
+#box1{
+ 
+  height: 15px;
+  width: 90px;
+  line-height: 30px;
+  
+
+}
+#clrs{
+  display: flex;
+}
+#one{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(225,225,225);
+}
+#two{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(160,160,160);
+}
+#three{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(120,120,120);
+}
+#four{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(80,80,80);
+}
+#five{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(42,42,42);
+}
+#six{
+  height: 15px;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+}
+#fnts{
+  width: 100%;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family:"DS-Digital";
+  letter-spacing: 1px;
+  word-spacing: 3.9px;
+}
+#nav1>h1{
+  line-height: 20px;
+  font-size: 20px;
+
+  font-weight: 690;
+  font-family: "Neue Haas Grotesk Text Pro";
+text-transform: uppercase;
+
+}
+#navimg{
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999;
+  padding: 20px 32px;
+
+}
+#navimg img{
+height: 100%;
+  width: 100px;
+}
+
+#centreimg{
+  z-index: 9999999;
+  position: absolute;
+  left: 61%;
+  top: 55%;
+  transform: translate(-50%,-50%);
+  height: 30vw;
+  width: 40vw;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+#centreimg h3{
+  color: rgb(26, 26, 26);
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 550;
+}
+
+#cimg img{
+  height: 17vw;
+  width: 69%;
+  object-fit: cover;
+}
+#overlay>h1{
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+  text-transform: uppercase;
+  z-index: 999;
+  font-size: 180px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 13%;
+  transform: translate(7%,10%);
+
+}
+
+
+#c-one{
+height: 10vw;
+width: 10vw;
+background-color:#105198;
+border-radius: 50%;
+z-index: 99999999999999;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+
+
+}
+#pf{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+position: absolute;
+z-index: 999999;
+top: 73%;
+}
+#pf>h1{
+
+font-size: 170px;
+font-family: "Neue Haas Grotesk Text Pro"; 
+font-weight: 400;
+color: rgb(255, 255, 255);
+
+}
+body::-webkit-scrollbar{
+display: none;
+}
+#lbox{
+
+height: 33vw;
+width: 32vw;
+background-color: #105198;
+position: absolute;
+
+top: -10%;
+left: 0%;
+}
+#ctext{
+position: absolute;
+color: #fff;
+top: 50%;
+left: 25%;
+font-family: "Neue Haas Grotesk Text Pro"; 
+text-transform: uppercase;  
+transform: translate(-50%,-50%);
+font-size: 11px;
+letter-spacing: 2px;
+
+
+}
+#ctext h3{
+padding-top: 20px;
+padding-left: 20px;
+}
+#btext{
+position: absolute;
+bottom: 10%;
+
+display: flex;
+justify-content: center;
+gap: 70px;
+width: 100%;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+}
+#btext h1{
+font-size: 35px;
+font-weight: 450;
+font-family:"DS-Digital";
+}
+#btext h1 sup{
+font-weight: 650; 
+font-size: 13px;
+letter-spacing: 1px;
+font-family: "Neue Haas Grotesk Text Pro"; 
+}
+
+#home2 {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#stop{
+z-index: 9;
+  width: 100%;
+  height: 60%;
+ 
+}
+#sbtm{
+  border-top: 1px solid rgba(46, 46, 46, 0.23);
+  z-index: 99999;
+  position: absolute;
+background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40%;
+}
+#tnav{
+  z-index: 999;
+  position: absolute;
+  top: 2%;
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+#tnav h1{
+  line-height: 20px;
+  font-size: 20px;
+
+  font-weight: 690;
+  font-family: "Neue Haas Grotesk Text Pro";
+text-transform: uppercase;
+}
+.circle{
+  height: 20vw;
+  width: 20vw;
+ 
+  border-radius: 50%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+#pi
+{
+  left: 45%;
+  z-index: 99;
+  background-color:#105198;
+}
+#pu{
+  left: 55%;
+background-color: #DCF1CE;
+}
+#btmnavimg{
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  bottom: 10%;
+  position: absolute;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  z-index: 99999;
+  border-bottom: 1px solid rgba(45, 45, 45, 0.301);
+
+
+}
+#btmnavimg img{
+
+height: 100%;
+  width: 100px;
+
+}
+#btmtext{
+  z-index: 9999;
+  width: 100%
+  ;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 45px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+#btmtext p{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 45px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+#twop{
+ opacity: 0;
+}
+#grdnt{
+  position: absolute;
+  height: 100%;
+  z-index: 99;
+  width: 100% ;
+  left: 100%;
+  background: linear-gradient(to right, #105198,#DCF1CE) ;
+}
+#grdnt>h1{
+  z-index: 99;
+  font-family: "Neue Haas Grotesk Text Pro";
+  text-transform: uppercase;
+  top: 8%;
+  color: #fff ;
+  position: absolute;
+  font-size: 400px;
+}
+#bbox{
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  left: 0%;
+  top: 60%;
+}
+
+.boxes{
+  height: 100%;
+  width: 20%;
+
+
+}
+#box0{
+  position: absolute;
+  left: 0%;
+  background-color: #115199;
+}
+#box2{
+  position: absolute;
+  left: 20%;
+  background-color: #3368A7;
+}
+#box3{
+  position: absolute;
+  left: 40%;
+  background-color: #5483B7;
+}
+#box4{
+  position: absolute;
+  left: 60%;
+  background-color: #769AC5;
+}
+#box5{
+  position: absolute;
+  left: 80%;
+  background-color: #BBCDE0;
+}
+#sbox1{
+  left: 0%;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  background-color: #115199;
+}
+#sbox2{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  background-color: #3368A7;
+}
+#sbox3{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  background-color: #5483B7;
+}
+#sbox4{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  background-color: #769AC5;
+}
+#sbox5{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  background-color: #BBCDE0;
+}
+#sbox6{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  right: -100%;
+  background-color: #DCE5F0;
+}
+
+#microbx1{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  background-color: #115199;
+}
+#microbx2{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  background-color: #3368A7;
+}
+#microbx3{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+   background-color: #5483B7;}
+#microbx4{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  background-color: #769AC5;
+}
+#microbx5{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  background-color: #BBCDE0;
+}
+#microbx6{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0%;
+  background-color: #DCE5F0;
+}
+#nmbr{
+  height: 150px;
+  width: 60px;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+#nmbrcover{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 9999;
+}
+#nmbrcover2{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  z-index: 999;
+}
+#nmbrcover2 h1{
+  position: absolute;
+  left: 30%;
+  top: -100%;
+  z-index: 98;
+  font-size: 40px;
+  font-family: "Neue Haas Grotesk Text Pro";
+ 
+}
+#nmbrcover1 h1{
+  left: 28%;
+  top: 65%;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+
+#home3{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: #D9D4F3;
+}
+#topnavhome3{
+  position: absolute;
+  height: 70px;
+  width: 100%;
+}
+#nav5{
+  top: 50% ;
+  left: 0%;
+  width: 100%;
+  height: 50px;
+position: absolute;
+  z-index: 99;
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+ 
+}
+#box6{
+ 
+  height: 15px;
+  width: 90px;
+  line-height: 30px;
+  
+
+}
+#clrs5{
+  display: flex;
+}
+#one5{
+  height: 15px;
+  width: 20px;
+  background-color: #C4C7E8;
+}
+#two5{
+  height: 15px;
+  width: 20px;
+  background-color: #B0BAE1;
+}
+#three5{
+  height: 15px;
+  width: 20px;
+  background-color: #889ECC;
+}
+#four5{
+  height: 15px;
+  width: 20px;
+  background-color: #547FB7;
+}
+#five5{
+  height: 15px;
+  width: 20px;
+  background-color: #265EA3;
+}
+#six5{
+  height: 15px;
+  width: 20px;
+  background-color: #105198;
+}
+#fnts5{
+  width: 100%;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family:"DS-Digital";
+  letter-spacing: 1px;
+  word-spacing: 3.9px;
+  color: #105198;
+}
+#nav5>h1{
+  line-height: 20px;
+  font-size: 20px;
+  color: #105198;
+  font-weight: 690;
+  font-family: "Neue Haas Grotesk Text Pro";
+text-transform: uppercase;
+
+}
+#btmnavhome3{
+  bottom: 5%;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+}
+#btmnavhome3 #navimghome3{
+ display: flex;
+ height: 70px;
+ justify-content: space-between;
+ padding: 0 20px;
+}
+#ovrlays{
+  z-index: 99999;
+  top: 10%;
+  position: absolute;
+  height: 250vh;
+  width: 100%;
+}
+
+#ovrtop h1{
+position: absolute;
+left: 1.8%;
+font-weight: 400;
+top: 2%;
+font-size: 180px;
+font-family: "Neue Haas Grotesk Text Pro";
+line-height: 170px;
+letter-spacing: 4px;
+text-transform: uppercase;
+border-bottom: 2px solid #105198;
+padding-bottom: 60px;
+color: #105198;
+}
+#ovrbtm{
+  display: flex;
+  position: absolute;
+  top: 20%;
+  height: 20%;
+  width: 100%;
+}
+#lft{
+  width: 50%;
+  height: 100%;
+  text-transform: uppercase;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 20px;
+}
+#rght{
+  width: 50%;
+  height: 100%;
+}
+#nms{
+  top: 30%;
+  left: 5%;
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: top;
+  display: flex;
+}
+#clrnm{
+  height: 60%;
+  width: 100px;
+margin-right: 100px;
+}
+#lft h1{
+  padding-right: 100px;
+  color: #105198;
+}
+#clrnm h3{
+  font-size: 13px;
+  color: #105198;
+  padding-bottom: 14px;
+}
+#crcle1{
+  position: absolute;
+  border-radius: 50%;
+  top: 35%;
+  right: 5%;
+  height: 40px;
+  width: 40px;
+  background-color: #105198;
+}
+#ovrcrcle img{
+  top: 35%;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+}
+#ovrwrds{
+  left: 10%;
+  border-top: 2px solid #105198;
+  border-bottom: 2px solid #105198;
+  height: 80px;
+  width: 80%;
+  position: absolute;
+  top:75%;
+  white-space: nowrap;
+}
+#ovrwrds h2{
+  color: #105198;
+  font-weight: 400;
+  font-size: 30px;
+  top: 25%;
+  font-family: "Neue Haas Grotesk Text Pro";
+  position: absolute;
+  left: -17%;
+
+}
+#prism>img{
+  left:-4%;
+  position: absolute;
+  top: 82%;
+  height: 600px;
+}
+
+#prsmwrds{
+  color: #105198;
+  font-size: 40px;
+  line-height: 80px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  text-align: center;
+  position: absolute ;
+  top: 110%;
+  height: 150px;
+  width: 100%;
+}
+#same1{
+  position: absolute;
+  right: 11%;
+
+  padding-top: 35px;
+}
+#same{
+  white-space: nowrap;
+  padding-top: 35px;
+  position: absolute;
+  left: 25%;
+}
+#ovrimages{
+  position: absolute ;
+  top: 132%;
+  height: 35%;
+  width: 100%;
+  position: absolute;
+}
+#ovrimages #scnd {
+  height: 90%;
+  left: 35%;
+  top: 20%;
+  position: absolute;
+}
+#ovrimages #frst {
+  height: 30%;
+  left: 15%;
+  top: 0%;
+  position: absolute;
+}
+#ovrimages #thrd {
+  height: 30%;
+  right: 15%;
+  bottom: -25%;
+  position: absolute;
+}
+#ovrimages>h1 {
+  z-index: 999;
+ position: absolute;
+ top: 40%;
+ left: -10%;
+ font-size: 180px;
+ font-family: "Neue Haas Grotesk Text Pro";
+ color: #105198;
+ font-weight: 400;
+ text-transform: uppercase;
+ white-space: nowrap;
+}
+#bigcircle{
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top: 200%;
+  left: 35%;
+  background-color: #105198;
+  border-radius: 50%;
+  z-index: 99;
+
+}
+@media (max-width:600px ) {
+     #nav1{
+      width: 90%;
+    
+     }
+    #circle{
+      height: 100vw;
+      width: 100vw;
+    }
+    #smcircle{
+      height: 90vw;
+      width: 90vw;
+    }
+  #centreimg{
+    top: 40%;
+    left: -10%;
+  }
+  #cimg img{
+    height: 300px;
+    width: 500px;
+  }
+  #overlay>h1{
+    left: 2%;
+    font-size: 100px;
+    top: 100%;
+  }
+  #nav2{
+    display: none;
+  }
+  #lbox{
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top:10%;
+  }
+  #nav5{
+width: 90%;
+top: 80%;
+z-index: 9999999;
+  
+  }
+  #btmnavhome3{
+    display: none;
+  }
+  #ovrlays{
+    z-index: 99999;
+    top: 10%;
+    position: absolute;
+    height: 300vh;
+    width: 100%;
+    background-color: #D9D4F3;
+  }
+  
+  #ovrtop h1{
+  position: absolute;
+  left: 5%;
+  font-weight: 700;
+  top: 3%;
+  font-size: 60px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  line-height: 70px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #105198;
+  padding-bottom: 80px;
+  color: #105198;
+  }
+  
+#ovrbtm{
+  display: flex;
+  position: absolute;
+  top: 10%;
+  height: 20%;
+  width: 100%;
+}
+#lft{
+  width: 50%;
+  height: 100%;
+  text-transform: uppercase;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 20px;
+}
+#rght{
+  width: 50%;
+  height: 100%;
+}
+#nms{
+  top: 30%;
+  left: 10%;
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: top;
+  display: flex;
+}
+#clrnm{
+  white-space: nowrap;
+  height: 60%;
+  width: 50px;
+margin-left: 25px;
+}
+#lft h1{
+  white-space: nowrap;
+  padding-right: 10px;
+  font-size: 25px;
+  color: #105198;
+}
+#clrnm h3{
+  font-size: 13px;
+  color: #105198;
+  padding-bottom: 14px;
+}
+#crcle1{
+  position: absolute;
+  border-radius: 50%;
+  top: 35%;
+  right: 5%;
+  height: 30px;
+  width: 30px;
+  background-color: #105198;
+}
+#ovrcrcle img{
+  top: 23%;
+  position: absolute;
+  left: 20%;
+  width: 60%;
+}
+#ovrwrds{
+  left: 10%;
+  border-top: 2px solid #105198;
+  border-bottom: 2px solid #105198;
+  height: 80px;
+  width: 80%;
+  position: absolute;
+  top:40%;
+  white-space: nowrap;
+}
+#ovrwrds h2{
+  color: #105198;
+  font-weight: 600;
+  font-size: 30px;
+  top: 25%;
+  font-family: "Neue Haas Grotesk Text Pro";
+  position: absolute;
+  left: -17%;
+
+}
+#prism>img{
+  z-index: 99999;
+  left:-65%;
+  top: 43%;
+  position: absolute;
+  height: 500px;
+}
+
+#prsmwrds{
+  color: #105198;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  text-align: center;
+  position: absolute ;
+  top: 59%;
+  height: 150px;
+  text-align: left;
+  width: 100%;
+  left: 15%;
+}
+#same1{
+  position: absolute;
+  right: 0%;
+
+  padding-top: 35px;
+}
+#same{
+  white-space: nowrap;
+  padding-top: 35px;
+  position: absolute;
+  left: -10%;
+}
+#ovrimages{
+  position: absolute ;
+  top: 70%;
+  height: 35%;
+  width: 100%;
+  position: absolute;
+}
+#ovrimages #scnd {
+  height: 35%;
+  left: 28%;
+  z-index: 99;
+  top: 10%;
+  position: absolute;
+}
+#ovrimages #frst {
+  height: 20%;
+  left: 5%;
+  top: 0%;
+  position: absolute;
+}
+#ovrimages #thrd {
+  height: 20%;
+  top: 40%;
+  right: 5%;
+  position: absolute;
+}
+#ovrimages>h1 {
+  z-index: 999;
+ position: absolute;
+ top: 20%;
+ left: -10%;
+ font-size: 180px;
+ font-family: "Neue Haas Grotesk Text Pro";
+ color: #105198;
+ font-weight: 400;
+ text-transform: uppercase;
+ white-space: nowrap;
+}
+#bigcircle{
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top: 200%;
+  left: 35%;
+  background-color: #105198;
+  border-radius: 50%;
+  z-index: 99;
+
+}
+#btmtext{
+  z-index: 9999;
+  width: 100%
+  ;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+#btmtext p{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  font-weight: 600;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 35px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+}
